@@ -53,26 +53,69 @@ The desktop application communicates with the microcontroller through a **custom
 
 ---
 
-## 🏗 Architecture
+## Component Responsibilities
 
-<p>The project consists of three main components:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Component</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>STM32 (C)</b></td>
+      <td>Runs the game engine, snake movement, and collision detection</td>
+    </tr>
+    <tr>
+      <td><b>Python backend</b></td>
+      <td>Handles serial communication and protocol processing</td>
+    </tr>
+    <tr>
+      <td><b>Qt/QML UI</b></td>
+      <td>Displays the game and processes user input</td>
+    </tr>
+  </tbody>
+</table>
 
-```text
-+-------------------+
-|   Qt / QML UI     |
-|  (Python PySide6) |
-+---------+---------+
-          |
-          | Serial protocol
-          |
-+---------v---------+
-| Python Backend    |
-| snake_protocol.py |
-+---------+---------+
-          |
-          | UART
-          |
-+---------v---------+
-|     STM32 MCU     |
-|   Game Logic (C)  |
-+-------------------+
+---
+
+## 🧰 Technologies Used
+
+<h3>Embedded</h3>
+<ul>
+  <li><b>C</b></li>
+  <li>STM32 microcontroller</li>
+  <li>UART communication</li>
+</ul>
+
+<h3>Desktop</h3>
+<ul>
+  <li><b>Python 3</b></li>
+  <li>PySide6 (Qt for Python)</li>
+  <li>Qt / QML UI</li>
+</ul>
+
+<h3>Tools</h3>
+<ul>
+  <li>Qt Creator</li>
+  <li>STM32 development environment</li>
+  <li>PyInstaller (for packaging)</li>
+</ul>
+
+---
+
+## ⚙ Installation
+
+<h3>1️⃣ Clone repository</h3>
+
+<pre><code>git clone https://github.com/Rozstyslav/Snake-Game.git
+cd Snake-Game</code></pre>
+
+<h3>2️⃣ Install dependencies</h3>
+
+<pre><code>pip install PySide6 pyserial</code></pre>
+
+<h3>3️⃣ Run application</h3>
+
+<pre><code>python main.py</code></pre>
