@@ -1,0 +1,11 @@
+../Core/Src/main.c:362:20:SetLedPin	5
+../Core/Src/main.c:241:6:SystemClock_Config	4
+../Core/Src/main.c:397:6:UpdateLEDs	1
+../Core/Src/main.c:409:6:SetTempEvent	1
+../Core/Src/main.c:420:6:UpdateLedModes	6
+../Core/Src/main.c:459:6:HandleButton	8
+../Core/Src/main.c:513:6:Debug_SendRandomSnakeData	8
+../Core/Src/main.c:137:5:main	9
+../Core/Src/main.c:559:6:UART_CommandCallback	4
+../Core/Src/main.c:589:6:HAL_UART_RxCpltCallback	4
+../Core/Src/main.c:624:6:Error_Handler	1

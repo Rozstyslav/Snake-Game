@@ -1,0 +1,8 @@
+../Core/Src/debug.c:55:6:Debug_Init	8	static
+../Core/Src/debug.c:59:6:Debug_SetMode	16	static
+../Core/Src/debug.c:72:9:Debug_GetMode	8	static
+../Core/Src/debug.c:78:13:send_random_packet	16	static
+../Core/Src/debug.c:100:13:send_scenario_step	24	static
+../Core/Src/debug.c:127:13:inject_error	32	static
+../Core/Src/debug.c:155:6:Debug_Process	16	static
+../Core/Src/debug.c:181:6:Debug_OnCommand	24	static

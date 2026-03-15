@@ -1,0 +1,5 @@
+../Core/Src/debug.c:40:6:Debug_Init	1
+../Core/Src/debug.c:44:6:Debug_SetMode	2
+../Core/Src/debug.c:55:9:Debug_GetMode	1
+../Core/Src/debug.c:115:6:Debug_Process	11
+../Core/Src/debug.c:136:6:Debug_OnCommand	2

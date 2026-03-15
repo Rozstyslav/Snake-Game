@@ -1,0 +1,7 @@
+../Core/Src/uart_protocol.c:40:6:UART_Protocol_Init	0	static
+../Core/Src/uart_protocol.c:49:6:UART_RegisterHandler	0	static
+../Core/Src/uart_protocol.c:60:9:UART_CalculateChecksum	8	static
+../Core/Src/uart_protocol.c:75:6:UART_SendPacket	24	static
+../Core/Src/uart_protocol.c:104:6:UART_ProcessByte	40	static
+../Core/Src/uart_protocol.c:177:6:UART_SendScore	24	static
+../Core/Src/uart_protocol.c:189:6:UART_SendState	16	static

@@ -1,0 +1,5 @@
+../Core/Src/led.c:17:20:set_led_pin	16	static
+../Core/Src/led.c:46:6:LED_Update	16	static
+../Core/Src/led.c:52:6:LED_UpdateModes	8	static
+../Core/Src/led.c:42:6:LED_Init	8	static
+../Core/Src/led.c:84:6:LED_SetTempEvent	8	static

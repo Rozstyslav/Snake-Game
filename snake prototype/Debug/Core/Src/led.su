@@ -1,0 +1,9 @@
+../Core/Src/led.c:118:22:resolve	16	static
+../Core/Src/led.c:130:13:write_pins	16	static
+../Core/Src/led.c:137:18:effective_mode	24	static
+../Core/Src/led.c:151:6:LED_Init	32	static
+../Core/Src/led.c:159:6:LED_UpdateModes	24	static
+../Core/Src/led.c:171:6:LED_SetTempEvent	24	static
+../Core/Src/led.c:180:6:LED_TriggerEvent	16	static
+../Core/Src/led.c:202:6:LED_IndicateDebugMode	16	static
+../Core/Src/led.c:217:6:LED_Update	40	static

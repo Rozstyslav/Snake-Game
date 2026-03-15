@@ -1,0 +1,5 @@
+../Core/Src/debug.c:40:6:Debug_Init	0	static
+../Core/Src/debug.c:44:6:Debug_SetMode	0	static
+../Core/Src/debug.c:55:9:Debug_GetMode	0	static
+../Core/Src/debug.c:115:6:Debug_Process	32	static
+../Core/Src/debug.c:136:6:Debug_OnCommand	16	static

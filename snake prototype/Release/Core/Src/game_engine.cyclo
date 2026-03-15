@@ -1,0 +1,4 @@
+../Core/Src/game_engine.c:38:13:Generate_Food	4
+../Core/Src/game_engine.c:76:10:Game_GetSpeedMs	1
+../Core/Src/game_engine.c:81:6:Game_Update	21
+../Core/Src/game_engine.c:167:6:Game_HandleCommand	16

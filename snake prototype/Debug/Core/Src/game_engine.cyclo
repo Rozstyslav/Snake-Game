@@ -1,0 +1,14 @@
+../Core/Src/game_engine.c:38:13:Add_Wall_Pair	9
+../Core/Src/game_engine.c:50:13:Add_Vertical_Wall	3
+../Core/Src/game_engine.c:58:13:Add_Horizontal_Wall	3
+../Core/Src/game_engine.c:71:13:Build_Level_Labyrinth_Exact	2
+../Core/Src/game_engine.c:119:13:Build_Maze_Level	1
+../Core/Src/game_engine.c:157:13:Build_Level_5_Symmetric_Corners	2
+../Core/Src/game_engine.c:219:13:Generate_Food	7
+../Core/Src/game_engine.c:250:13:Setup_Level	7
+../Core/Src/game_engine.c:298:13:Reset_Game	1
+../Core/Src/game_engine.c:309:13:Start_Game	1
+../Core/Src/game_engine.c:326:6:Game_Start	1
+../Core/Src/game_engine.c:331:10:Game_GetSpeedMs	1
+../Core/Src/game_engine.c:336:6:Game_Update	29
+../Core/Src/game_engine.c:419:6:Game_HandleCommand	18

@@ -1,0 +1,7 @@
+../Core/Src/uart_protocol.c:44:6:UART_Protocol_Init	1
+../Core/Src/uart_protocol.c:53:6:UART_RegisterHandler	1
+../Core/Src/uart_protocol.c:64:9:UART_CalculateChecksum	2
+../Core/Src/uart_protocol.c:79:6:UART_SendPacket	4
+../Core/Src/uart_protocol.c:108:6:UART_ProcessByte	13
+../Core/Src/uart_protocol.c:188:6:UART_SendScore	1
+../Core/Src/uart_protocol.c:201:6:UART_SendState	1

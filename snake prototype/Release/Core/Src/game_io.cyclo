@@ -1,0 +1,13 @@
+../Core/Src/game_io.c:33:13:UART_Handler	13
+../Core/Src/game_io.c:87:6:GameIO_Init	1
+../Core/Src/game_io.c:92:9:GameIO_GetDebugMode	1
+../Core/Src/game_io.c:97:6:GameIO_SetDebugMode	2
+../Core/Src/game_io.c:104:6:GameIO_RegisterCallback	1
+../Core/Src/game_io.c:111:9:GameIO_GetState	1
+../Core/Src/game_io.c:116:6:GameIO_SetState	2
+../Core/Src/game_io.c:125:10:GameIO_GetSpeed	1
+../Core/Src/game_io.c:130:9:GameIO_GetWallDifficulty	1
+../Core/Src/game_io.c:135:9:GameIO_GetBoundaryMode	1
+../Core/Src/game_io.c:142:6:GameIO_SendDelta	1
+../Core/Src/game_io.c:149:6:GameIO_SendScore	1
+../Core/Src/game_io.c:154:6:GameIO_SendState	1

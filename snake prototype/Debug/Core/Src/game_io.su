@@ -1,0 +1,14 @@
+../Core/Src/game_io.c:16:6:GameIO_SetSelectedLevel	16	static
+../Core/Src/game_io.c:23:9:GameIO_GetSelectedLevel	8	static
+../Core/Src/game_io.c:28:13:UART_Handler	16	static
+../Core/Src/game_io.c:75:6:GameIO_Init	8	static
+../Core/Src/game_io.c:80:9:GameIO_GetDebugMode	8	static
+../Core/Src/game_io.c:85:6:GameIO_RegisterCallback	16	static
+../Core/Src/game_io.c:92:9:GameIO_GetState	8	static
+../Core/Src/game_io.c:97:6:GameIO_SetState	16	static
+../Core/Src/game_io.c:106:10:GameIO_GetSpeed	8	static
+../Core/Src/game_io.c:111:9:GameIO_GetWallDifficulty	8	static
+../Core/Src/game_io.c:116:9:GameIO_GetBoundaryMode	8	static
+../Core/Src/game_io.c:123:6:GameIO_SendDelta	32	static
+../Core/Src/game_io.c:130:6:GameIO_SendScore	16	static
+../Core/Src/game_io.c:135:6:GameIO_SendState	16	static
