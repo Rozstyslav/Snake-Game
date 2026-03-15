@@ -1,42 +1,63 @@
-# 🐍 Snake Game (STM32 + Python + Qt)
+<h1 align="center">🐍 Snake Game</h1>
+<h3 align="center">STM32 + Python + Qt/QML</h3>
 
-A hybrid embedded + desktop Snake game project where the game logic runs on an STM32 microcontroller, while the graphical interface is implemented in Python using Qt/QML.
+<p align="center">
+  A hybrid embedded + desktop Snake game project
+</p>
 
-The PC application communicates with the microcontroller via serial protocol, sending control commands and receiving game state updates in real time.
+<p align="center">
+  <img src="https://img.shields.io/badge/STM32-MCU-orange?style=for-the-badge" alt="STM32">
+  <img src="https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge" alt="Python">
+  <img src="https://img.shields.io/badge/Qt-QML-green?style=for-the-badge" alt="Qt">
+  <img src="https://img.shields.io/badge/Platform-Windows-lightgrey?style=for-the-badge" alt="Platform">
+</p>
 
-This project demonstrates embedded systems integration with desktop UI, custom communication protocols, and real-time interaction between hardware and software.
+---
 
-📌 Features
+## 📖 Overview
 
-🐍 Classic Snake gameplay
+This project combines **embedded programming** and **desktop application development** in a single Snake Game system.
 
-⚡ Real-time communication between PC and STM32
+The **game logic** runs on an **STM32 microcontroller** written in **C**, while the **graphical user interface** is implemented in **Python using Qt/QML**.
 
-🖥 Desktop interface built with Qt / QML (PySide6)
+The desktop application communicates with the microcontroller through a **custom serial protocol**, sending control commands and receiving game state updates in real time.
 
-🔌 Custom binary serial protocol between PC and MCU
+### The project demonstrates:
+- embedded systems integration
+- desktop UI development with Qt/QML
+- custom serial communication
+- real-time interaction between hardware and software
 
-🎮 Keyboard control from PC
+---
 
-🧠 Game logic handled by STM32
+## ✨ Features
 
-📊 Score and snake length tracking
+<ul>
+  <li>🐍 Classic Snake gameplay</li>
+  <li>⚡ Real-time communication between PC and STM32</li>
+  <li>🖥 Desktop interface built with <b>Qt / QML (PySide6)</b></li>
+  <li>🔌 Custom binary serial protocol between PC and MCU</li>
+  <li>🎮 Keyboard control from PC</li>
+  <li>🧠 Game logic handled by STM32</li>
+  <li>📊 Score and snake length tracking</li>
+  <li>⚙ Configurable game parameters:
+    <ul>
+      <li>Speed</li>
+      <li>Walls</li>
+      <li>Movement restrictions</li>
+    </ul>
+  </li>
+  <li>🌙 Support for light / dark themes</li>
+  <li>🧾 Debug logging system</li>
+</ul>
 
-⚙ Configurable game parameters:
+---
 
-Speed
+## 🏗 Architecture
 
-Walls
+<p>The project consists of three main components:</p>
 
-Movement restrictions
-
-🌙 Support for light / dark themes
-
-🧾 Debug logging system
-
-🏗 Architecture
-
-The project consists of three main components:
+```text
 +-------------------+
 |   Qt / QML UI     |
 |  (Python PySide6) |
@@ -55,43 +76,3 @@ The project consists of three main components:
 |     STM32 MCU     |
 |   Game Logic (C)  |
 +-------------------+
-
-Responsibilities
-Component	Description
-STM32 (C)	Runs the game engine, snake movement, collision detection
-Python backend	Handles serial communication and protocol
-Qt/QML UI	Displays the game and processes user input
-
-🧰 Technologies Used
-Embedded
-
-C
-
-STM32 microcontroller
-
-UART communication
-
-Desktop
-
-Python 3
-
-PySide6 (Qt for Python)
-
-QML UI
-
-Tools
-
-Qt Creator
-
-STM32 development environment
-
-PyInstaller (for packaging)
-
-⚙ Installation
-1️⃣ Clone repository
-git clone https://github.com/Rozstyslav/Snake-Game.git
-cd Snake-Game
-2️⃣ Install dependencies
-pip install PySide6 pyserial
-3️⃣ Run application
-python main.py
